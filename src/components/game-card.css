@@ -1,0 +1,62 @@
+.game-card {
+  width: 290px; /* Adjust width as needed */
+  border-radius: 10px;
+  overflow: hidden;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+}
+
+.game-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.game-image {
+  width: 100%;
+  display: block;
+}
+
+.game-info {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.game-name {
+  color: black;
+  font-family: poppins;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.play-button {
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  font-family: poppins;
+  padding: 10px 20px; /* Padding */
+  font-size: 18px; /* Font size */
+  cursor: pointer; /* Cursor style */
+  border-top-left-radius: 0; /* Rounded corners */
+  border-top-right-radius: 0;
+  width: 100%;
+}
+
+.play-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.need-tokens {
+  color: rgb(255, 255, 255);
+  font-family: poppins;
+  background-color: #007bff;
+  text-align: center;
+  padding: 8px;
+  font-weight: 600;
+}
